@@ -1,0 +1,5 @@
+package br.com.tonni.microservico.loja.dto;
+
+public class CompraDto {
+
+}
