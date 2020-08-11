@@ -1,4 +1,4 @@
-package br.com.tonni.microservico.loja.controller.dto;
+package br.com.tonni.microservico.loja.dto;
 
 public class EnderecoDTO {
 
@@ -40,4 +40,11 @@ public class EnderecoDTO {
 		this.estado = estado;
 	}
 
+	@Override
+	public String toString() {
+		return "EnderecoDTO [rua=" + rua + ", numero=" + numero + ", cidade=" + cidade + ", estado=" + estado + "]";
+	}
+
+	
+	
 }

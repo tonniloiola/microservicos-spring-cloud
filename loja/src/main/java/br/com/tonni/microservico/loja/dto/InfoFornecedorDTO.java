@@ -1,4 +1,4 @@
-package br.com.tonni.microservico.loja.controller.dto;
+package br.com.tonni.microservico.loja.dto;
 
 public class InfoFornecedorDTO {
 
