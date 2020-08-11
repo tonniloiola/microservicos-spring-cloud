@@ -3421,3 +3421,117 @@ java.lang.IllegalStateException: Conflicting handlers: {[org.springframework.ide
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:24.454
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:24.459
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:24.460
+!MESSAGE buffering callback sts4.classpath.dfkJwPbR fornecedor false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:24.460
+!MESSAGE executing callback sts4.classpath.dfkJwPbR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:24.467
+!MESSAGE executing callback sts4.classpath.dfkJwPbR SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-11 15:19:26.228
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-sleuth:2.2.3.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-sleuth:jar:sources:2.2.3.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-sleuth:jar:sources:2.2.3.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-08-11 15:19:26.229
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-sleuth:jar:sources:2.2.3.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-11 15:19:26.229
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-sleuth:jar:sources:2.2.3.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:27.914
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:27.916
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:27.917
+!MESSAGE buffering callback sts4.classpath.dfkJwPbR loja false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:27.917
+!MESSAGE executing callback sts4.classpath.dfkJwPbR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:19:27.925
+!MESSAGE executing callback sts4.classpath.dfkJwPbR SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-08-11 15:20:01.626
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-sleuth:2.2.3.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-sleuth:jar:javadoc:2.2.3.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-sleuth:jar:javadoc:2.2.3.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-08-11 15:20:01.626
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-sleuth:jar:javadoc:2.2.3.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-08-11 15:20:01.626
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-sleuth:jar:javadoc:2.2.3.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:01.869
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:01.873
+!MESSAGE classpath=194 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:01.874
+!MESSAGE buffering callback sts4.classpath.dfkJwPbR fornecedor false 194
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:01.874
+!MESSAGE executing callback sts4.classpath.dfkJwPbR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:01.883
+!MESSAGE executing callback sts4.classpath.dfkJwPbR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:02.044
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:02.048
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:02.049
+!MESSAGE buffering callback sts4.classpath.dfkJwPbR loja false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:02.049
+!MESSAGE executing callback sts4.classpath.dfkJwPbR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-11 15:20:02.066
+!MESSAGE executing callback sts4.classpath.dfkJwPbR SUCCESS [done]
