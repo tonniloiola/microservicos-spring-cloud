@@ -2,18 +2,6 @@
 server:
   port: 8081
   
- 
-spring:
-  datasource:
-    password: fornecedor
-    username: root
-    url: jdbc:mysql://localhost:3306/fornecedor?useSSL=false&createDatabaseIfNotExist=true
-  jpa:
-    hibernate:
-      ddl-auto: update
-  application:
-    name: 'fornecedor'
-    
 eureka:
   client:
     fetch-registry: true
